@@ -1,6 +1,10 @@
 # How to start to app
 
-    -clone the repo
+- 1
+- 2
+- 3
+
+    - clone the repo
     - npm install 
     - npm run dev
 
