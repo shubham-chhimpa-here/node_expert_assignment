@@ -1,7 +1,15 @@
+import Contact from "./Contact";
+
 export default function Footer() {
     return <>
-        <footer className="px-4 divide-y bg-gray-100 text-gray-800">
-            <div className="container flex  flex-col  justify-between p-10  mx-auto space-y-8 lg:flex-row lg:space-y-0 border">
+    <div className="pt-52">
+
+        <footer className="py-4 pt-10  bg-gray-100 text-gray-800 relative ">
+            <div className="absolute  left-[25%] -top-[50%] ">
+
+            <Contact />
+            </div>
+            <div className="container flex  flex-col  justify-between p-10  mx-auto space-y-8 lg:flex-row lg:space-y-0 ">
 
 
                 <div className="space-y-6">
@@ -74,13 +82,15 @@ export default function Footer() {
                     </ul>
                 </div>
 
-         
-        </div>
-        <div className="flex justify-between px-10 align-center">
 
-        <div className="py-6 text-sm text-center text-gray-600">© 1968 Company Co. All rights reserved.</div>
-        <div className="py-6 text-sm text-center text-gray-600">Terms of use</div>
-        </div>
-    </footer >
+            </div>
+            <div className="flex justify-between px-10 align-center">
+
+                <div className="py-6 text-sm text-center text-gray-600">© 2024 Company Co. All rights reserved.</div>
+                <div className="py-6 text-sm text-center text-gray-600">Terms of use</div>
+            </div>
+        </footer >
+    </div>
+
     </>
 }

@@ -1,3 +1,4 @@
+import img5 from '../assets/img5.png'
 export default function Feedback() {
     return <>
         <section className="m-4 md:m-8  text-gray-800">
@@ -16,8 +17,10 @@ export default function Feedback() {
             </section>
 
             <section className=" text-gray-800">
-                <div className="container flex flex-col justify-center mx-auto lg:flex-row ">
-                    <div className="w-full lg:w-1/3 " ></div>
+                <div className="container flex flex-col justify-center mx-auto lg:flex-row  bg-gray-50">
+                    <div className="w-full lg:w-1/3  " >
+                        <img src={img5} alt="" srcset="" className='h-72 m-auto' />
+                    </div>
                     <div className="flex flex-col w-full p-6 lg:w-2/3 md:p-8 lg:p-12 max-w-xl">
 
                         <div className="flex space-x-3">

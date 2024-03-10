@@ -1,3 +1,6 @@
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.png'
 export default function Features() {
     return <>
         <section className="m-4 md:m-8  text-gray-800">
@@ -5,39 +8,34 @@ export default function Features() {
                 <h2 className="text-4xl font-semibold">We provide various kind of learning modules for you</h2>
                 <p className="text-gray-600">It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem</p>
             </div>
-            <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                <div className="flex flex-col items-center p-4 border">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                        <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                    </svg>
-                    <h3 className="my-3 text-3xl font-semibold">Product</h3>
+            <div className="container mx-auto flex justify-evenly  text-center">
+                <div className="flex flex-col items-center  p-4  bg-gray-50  rounded-xl max-w-xs">
+                    <div className='max-h-60 overflow-hidden'>
+                        <img src={img1} className='h-full' />
+                    </div>
+                    <h3 className="my-3 text-3xl font-semibold">Learn Anything</h3>
                     <div className="space-y-1 leadi">
-                        <p>Similique quas ea veniam</p>
-                        <p>Tempore quasi porro</p>
-                        <p>Blanditiis aut mollitia ex</p>
+                        <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable</p>
                     </div>
                 </div>
-             
-                <div className="flex flex-col items-center p-4 border">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                        <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                    </svg>
-                    <h3 className="my-3 text-3xl font-semibold">Product</h3>
+
+                <div className="flex flex-col items-center p-4  bg-gray-50 rounded-xl max-w-xs">
+                    <div className='max-h-60 overflow-hidden'>
+                        <img src={img2} className='h-full' />
+                    </div>
+                    <h3 className="my-3 text-3xl font-semibold">Flexible Learning</h3>
                     <div className="space-y-1 leadi">
-                        <p>Similique quas ea veniam</p>
-                        <p>Tempore quasi porro</p>
-                        <p>Blanditiis aut mollitia ex</p>
+                        <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When</p>
                     </div>
                 </div>
-                <div className="flex flex-col items-center p-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-600">
-                        <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                    </svg>
-                    <h3 className="my-3 text-3xl font-semibold">Product</h3>
+                <div className="flex flex-col items-center p-4  bg-gray-50  rounded-xl max-w-xs">
+                    <div className='max-h-60 overflow-hidden'>
+                        <img src={img3} className='h-full' />
+                    </div>
+                    <h3 className="my-3 text-3xl font-semibold">Expert Connect</h3>
                     <div className="space-y-1 leadi">
-                        <p>Similique quas ea veniam</p>
-                        <p>Tempore quasi porro</p>
-                        <p>Blanditiis aut mollitia ex</p>
+
+                        <p>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable</p>
                     </div>
                 </div>
             </div>
