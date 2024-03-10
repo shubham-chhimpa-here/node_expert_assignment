@@ -80,7 +80,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="space-y-3">
-                    <h3 className="uppercase text-gray-900">Contact Us</h3>
+                    <h3 className="font-bold text-gray-900">Contact Us</h3>
                     <ul className="space-y-1">
                         <li>
                             <a rel="noopener noreferrer" href="#">+91 9876543210</a>
